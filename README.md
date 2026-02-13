@@ -1,9 +1,12 @@
-1. Clone project
-2. cd <project folder>
+1. ````
+   git clone https://github.com/alijonovaward/Listener.git
+2. ````
+   cd Listener
 
-3. python -m venv venv
-source venv/bin/activate   # Linux / Mac
-venv\Scripts\activate      # Windows
+3. ````
+   python -m venv venv
+   source venv/bin/activate   # Linux / Mac
+   venv\Scripts\activate      # Windows
 
 4. ```bash
     pip install -r requirements.txt
