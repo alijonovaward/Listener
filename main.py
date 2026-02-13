@@ -5,7 +5,6 @@ import json
 app = FastAPI()
 
 
-# Webhook endpoint
 @app.post("/webhook")
 async def webhook(request: Request):
     try:
